@@ -1,0 +1,48 @@
+
+/*ela é composta: pela identificação do elemento seguido de chaves, e por fim dentro das chaves vpcê escolhe o atributo que deseja modificar seguido do paâmetro. EX.: 
+p{font-size:16px
+   color: red;}
+   Sempre eu preciso terminar os comando com ;
+   
+   Medidas Absolutas - ou seja fixas
+      px pixel
+      cm centimetros
+      mm milimetros
+   Medidas relativas - ou seja que se ajustam
+      rem - se ajusta com o tamanhao da fonte html
+      % - relativo ao tamanho do elemento pai / tela
+      */
+
+    .ferias{
+        /*Alterando a largura da imagem*/
+        width: 50%;
+        /*Alterando a altura da imagem*/
+        height: 50%;
+     }
+     img{
+        /*Alterando a largura da imagem*/
+        width: 50%;
+        /*Alterando a altura da imagem*/
+        height: 50%;
+     }
+     tr,td{
+        /*Definindo a cor da borda das linhas e colunas da tabela*/
+        border: 1px solid;
+        border-color: solid black;
+     }
+     td{
+        /*Alterando a largura da imagem*/
+        width: 250px;
+     }
+     .card{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .linha1{
+        background-color: orange;
+        text-align: center;
+        font-weight: bold;
+    }
+    body{   
+        background-image: linear-gradient(to top ,#3cbccc, #749e9c, #acd1d3);
+    }
